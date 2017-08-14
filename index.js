@@ -29,7 +29,7 @@ app.post('/fact', (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 8005;
+const PORT = process.env.PORT || 8004;
 
 app.listen(PORT, () => {
   console.log('Strong bot listening on port %s', PORT);
